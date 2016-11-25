@@ -66,6 +66,12 @@
             <type>war</type>
             <scope>runtime</scope>
         </dependency>
+        <dependency>
+            <groupId>org.apereo.cas</groupId>
+            <artifactId>cas-server-support-rest</artifactId>
+            <version>${cas.version}</version>
+            <scope>runtime</scope>
+        </dependency>     
     </dependencies>
 
     <properties>
